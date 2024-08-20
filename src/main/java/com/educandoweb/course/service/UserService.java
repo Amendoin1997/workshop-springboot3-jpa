@@ -1,10 +1,9 @@
-package service;
+package com.educandoweb.course.service;
 
-import entities.User;
+import com.educandoweb.course.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-import repositories.UserRepository;
+import com.educandoweb.course.repositories.UserRepository;
 
 import java.util.List;
 import java.util.Optional;
